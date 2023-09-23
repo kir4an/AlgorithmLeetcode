@@ -1,4 +1,4 @@
-package Leetcode.Arrays;
+package Leetcode.Easy.Arrays;
 
 public class majorityElement {
     public static int majorityElement(int[] nums) {

@@ -1,6 +1,4 @@
-package Leetcode.Arrays;
-
-import java.util.HashSet;
+package Leetcode.Easy.Arrays;
 
 public class RemoveDuplicatesfromSortedArray {
     public int removeDuplicates(int[] nums) {

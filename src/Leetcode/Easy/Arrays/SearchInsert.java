@@ -1,4 +1,4 @@
-package Leetcode.Arrays;
+package Leetcode.Easy.Arrays;
 
 public class SearchInsert {
     public int searchInsert(int[] nums, int target) {
