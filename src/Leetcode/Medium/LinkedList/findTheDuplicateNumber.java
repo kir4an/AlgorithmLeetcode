@@ -1,7 +1,7 @@
 package Leetcode.Medium.LinkedList;
 
 public class findTheDuplicateNumber {
-    public int findDuplicate(int[] nums) {
+    public static int findDuplicate(int[] nums) {
         int slow = 0;
         int fast = 0;
         do{
@@ -15,5 +15,10 @@ public class findTheDuplicateNumber {
             fast = nums[fast];
         }
         return slow;
+    }
+
+    public static void main(String[] args) {
+        int [] nums = new int[]{1,3,4,2,2};
+        System.out.println(findDuplicate(nums));
     }
 }
