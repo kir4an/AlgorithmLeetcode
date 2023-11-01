@@ -18,7 +18,7 @@ public class findDuplicates {
     }
 
     public static void main(String[] args) {
-        int arr[] = new int[]{1,2,127,4,2};
+        int arr[] = new int[]{1,2,3,4,2};
         System.out.println(findDuplicates(arr));
     }
 }
